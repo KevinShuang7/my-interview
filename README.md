@@ -62,9 +62,23 @@ type fooReturnType = ReturnType<typeof foo>;
 
 ### 原型、原型链
 
+### Promise 的使用
+
+#### Promise 的作用
+
+#### Promise.all 作用 入参 then、catch 回调参数
+
+### 基于 Promise A+ 规范的实现
+
 ### async/await 实现
 
+### 使用原生方法实现数组取最大值
+
+tip: Math.max
+
 ## React 相关问题
+
+### React Hooks 引入的意义
 
 ### 常见的 hooks 有哪些
 
@@ -77,3 +91,40 @@ type fooReturnType = ReturnType<typeof foo>;
 ## 算法
 
 ### 冒泡、快排
+
+## 浏览器相关
+
+### 浏览器从输入网址按回车发生了什么？
+
+### cookie
+
+#### cookie 的作用
+
+#### cookie 的参数有哪些，分别有什么作用
+
+### 同源协议
+
+### 如何解决跨域问题
+
+主要是 CORS JSONP
+
+### HTTP 协议
+
+http1.0 http1.1 http2.0 区别
+
+### HTTPS 协议
+
+相比于 `http` 协议作用、意义
+
+#### TLS/SSL 协议
+
+加密算法 握手过程
+
+### TCP/IP 协议
+
+3 次握手过程
+4 次挥手过程
+
+### 浏览器缓存
+
+强缓存、协商缓存；协商过程；控制缓存的字段有哪些，作用
